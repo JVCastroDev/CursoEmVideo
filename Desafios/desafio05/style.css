@@ -1,0 +1,10 @@
+#header{
+  font-size: 36px;
+
+}
+.foto-redonda{
+  
+  border-radius: 50%;
+  overflow: hidden;
+
+}

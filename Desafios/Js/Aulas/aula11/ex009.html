@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content='ie=edge'>
+    <title>Você é estrangeiro?</title>
+    
+</head>
+
+
+<style>
+    body{
+        font: normal 15pt Arial;
+        
+    }
+    input{
+        font: normal 15pt Arial;
+        height: 25px;
+    }
+    div#res{
+      
+        margin-top: 20px;
+        font: normal 20pt Arial;
+        font-weight: 100px;
+        
+
+    }
+
+</style>
+
+
+<body>
+
+    <h1>Sistema de Verificação de Passaporte</h1>
+    
+    Pais de origem: <input type="text" name="pais" id="pais">
+    <input type="button" value="Checar" onclick="verificar()">   
+    <div id="res">
+
+    </div> 
+    
+    
+    
+    
+    <script>
+        function verificar(){
+            var p = document.getElementById('pais')
+            var res = document.getElementById('res')
+            var txtp = String(p.value)
+
+            if(txtp === "Brasil"){
+                res.innerHTML = "Voce é Brasileiro"
+            }else{
+                res.innerHTML = "Voce é estrangeiro" 
+           }
+        }
+
+
+    </script>
+    
+</body>
+</html>
