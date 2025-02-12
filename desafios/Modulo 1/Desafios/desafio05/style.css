@@ -1,0 +1,24 @@
+
+
+    html{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+      font-size: 32px;
+    }
+
+  footer{
+    margin-top: 5%;
+  }
+
+.container{
+p{
+  width: 300px; /* Largura do contêiner */
+    height: 100px; /* Altura do contêiner */
+    word-wrap: break-word; /* Quebra de palavras */
+}
+}
+
+.contato{
+margin-top: 20px;
+}

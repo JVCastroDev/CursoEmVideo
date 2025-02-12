@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagens Flexiveis</title>
+</head>
+<body>
+  <h1>A imagem é flexivel</h1>
+  <p>Tente abrir esse site em varios dispositivos ou altere o tamanho do seu navegador</p>
+  
+  <picture>
+    <source media="(max-width:750px)" srcset="imagemP.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagemM.png" type="image/png">
+    <img src="imagemG.png" alt="Imagem flexivel">
+    <!--A ordem precisa ser respeitada
+        Abaixo vai a imagem e no sentido decrescente pra cima vem os sources--> 
+  </picture>
+
+  <h1>Reproduzindo Audio</h1>
+  <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+
+  <p>12 Stones - Fade Away</p>
+  <audio src="5adac96bf02e2f90573c60f4312a22de-nodrums.mp3" preload="metadata" controls autoplay loop></audio>
+
+  
+
+  <h1>Reproduzindo Videos</h1>
+  <p>Vamos introduzir Videos nessa aba de HTML5.</p>
+  
+  <video src="ssstwitter.com_1710853703588.mp4"  poster="nicolas-i-o8koK0E-oRg-unsplash.jpg" width= "500" preload="auto" controls  autoplay loop></video>
+    <source src="ssstwitter.com_1710853703588.mp4" type="video/mp4">
+    <source src="ssstwitter.com_1710853703588.mp4" type="video/mp4">
+    <source src="ssstwitter.com_1710853703588.mp4" type="video/mp4">
+    <source src="ssstwitter.com_1710853703588.mp4" type="video/mp4">
+
+
+
+</body>
+</html>
